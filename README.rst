@@ -2,11 +2,11 @@
 climpred-cloud-demo
 =============================
 
-Try [climpred](climpred.readthedocs.io/) on CMIP6 DCPP output in the cloud.
+Try `climpred <climpred.readthedocs.io/>`_ on CMIP6 DCPP output in the cloud.
 
 .. image:: https://i.imgur.com/HPOdOsR.png
 
-[climpred](climpred.readthedocs.io/) is an xarray wrapper for analysis of ensemble forecast models for climate prediction.
+`climpred <climpred.readthedocs.io/>`_ is an xarray wrapper for analysis of ensemble forecast models for climate prediction.
 
 Try these notebooks on pangeo.binder.io_ : |Binder|
 
@@ -16,9 +16,11 @@ Features
 --------
 
 * access CMIP6 data in the cloud:
+
     - DCPP hindcast
     - DCPP assimilation
     - historical
+
 * calculate skill with climpred
 * bootstrapping significant skill with climpred
 
