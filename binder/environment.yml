@@ -24,6 +24,9 @@ dependencies:
   - graphviz
   - nodejs
   - pip
+  # regridding
+  - esmpy
+  - xesmf
   - pip:
     - kubernetes
     - graphviz
