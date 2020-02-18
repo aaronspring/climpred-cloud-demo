@@ -2,12 +2,11 @@
 climpred-cloud-demo
 =============================
 
-Try climpred on CMIP6 DCPP output from the cloud.
+Try [climpred](climpred.readthedocs.io/) on CMIP6 DCPP output in the cloud.
 
 .. image:: https://i.imgur.com/HPOdOsR.png
 
-[climpred](climpred.readthedocs.io/
-) is an xarray wrapper for analysis of ensemble forecast models for climate prediction.
+[climpred](climpred.readthedocs.io/) is an xarray wrapper for analysis of ensemble forecast models for climate prediction.
 
 Try these notebooks on pangeo.binder.io_ : |Binder|
 
@@ -17,10 +16,11 @@ Features
 --------
 
 * access CMIP6 data in the cloud:
-  * DCPP hindcast
-  * DCPP assimilation
-  * historical
+    - DCPP hindcast
+    - DCPP assimilation
+    - historical
 * calculate skill with climpred
+* bootstrapping significant skill with climpred
 
 Todo
 ----
@@ -35,7 +35,6 @@ Todo
 .. |Binder| image:: http://binder.pangeo.io/badge.svg
     :target: http://binder.pangeo.io/v2/gh/aaronspring/climpred_cloud_demo/master
 
-[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/aaronspring/climpred-cloud-demo/master?filepath=notebooks%2Fclimpred_DCPP_cloud.ipynb)
 
-    .. image:: https://binder.pangeo.io/badge_logo.svg
-     :target: https://binder.pangeo.io/v2/gh/aaronspring/climpred-cloud-demo/master?filepath=notebooks%2Fclimpred_DCPP_cloud.ipynb
+.. image:: https://binder.pangeo.io/badge_logo.svg
+   :target: https://binder.pangeo.io/v2/gh/aaronspring/climpred-cloud-demo/master?filepath=notebooks%2Fclimpred_DCPP_cloud.ipynb
