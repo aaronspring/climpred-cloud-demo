@@ -17,9 +17,9 @@ Features
 
 * access CMIP6 data in the cloud:
 
-    - DCPP hindcast
-    - DCPP assimilation
-    - historical
+  - DCPP hindcast
+  - DCPP assimilation
+  - historical
 
 * calculate skill with climpred
 * bootstrapping significant skill with climpred
@@ -27,7 +27,6 @@ Features
 Todo
 ----
 
-* get it running
 * get observations
 * get regridding
 * get bootstrapping scaling
@@ -39,4 +38,4 @@ Todo
 
 
 .. image:: https://binder.pangeo.io/badge_logo.svg
-   :target: https://binder.pangeo.io/v2/gh/aaronspring/climpred-cloud-demo/master?filepath=notebooks%2Fclimpred_DCPP_cloud.ipynb
+   :target: https://binder.pangeo.io/v2/gh/aaronspring/climpred-cloud-demo/master?urlpath=lab?filepath=notebooks%2Fclimpred_DCPP_cloud.ipynb
