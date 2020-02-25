@@ -28,7 +28,7 @@ Todo
 ----
 
 * get useful number of workers and memory
-* get regridding
+* get regridding done lazily
 * get bootstrapping scaling
 
 .. _pangeo.binder.io: http://binder.pangeo.io/
