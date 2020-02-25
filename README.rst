@@ -18,16 +18,16 @@ Features
 * access CMIP6 data in the cloud:
 
   - DCPP hindcast
-  - DCPP assimilation
+  - optional: DCPP assimilation
   - historical
 
-* calculate skill with climpred
-* bootstrapping significant skill with climpred
+* calculate skill with `climpred <climpred.readthedocs.io/>`_
+* bootstrapping significant skill with `climpred <climpred.readthedocs.io/>`_
 
 Todo
 ----
 
-* get observations
+* get useful number of workers and memory
 * get regridding
 * get bootstrapping scaling
 
