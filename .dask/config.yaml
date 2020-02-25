@@ -29,8 +29,8 @@ kubernetes:
         name: dask-worker
         resources:
           limits:
-            cpu: 8
+            cpu: 16
             memory: 32G
           requests:
-            cpu: 4
+            cpu: 8
             memory: 16G
