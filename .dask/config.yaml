@@ -14,12 +14,12 @@ kubernetes:
   worker-template:
     metadata:
     spec:
-      #restartPolicy: Never
+      restartPolicy: Never
       containers:
       - args:
           - dask-worker
           - --nthreads
-          - '16'
+          - '4'
           - --no-bokeh
           - --memory-limit
           - 32GB

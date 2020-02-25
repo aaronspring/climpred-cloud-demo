@@ -20,7 +20,7 @@ dependencies:
   - jupyterlab=0.35
   - jupyterlab_launcher
   - jupyter_client
-  #- ipywidgets
+  - ipywidgets
   - graphviz
   - nodejs
   - pip
@@ -32,4 +32,4 @@ dependencies:
     - graphviz
     - git+https://github.com/bradyrx/climpred.git
     - jupyter-server-proxy
-    - ipywidgets
+    - nb_black
