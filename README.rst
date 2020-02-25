@@ -29,7 +29,7 @@ Todo
 
 * get useful number of workers and memory
 * get regridding done lazily
-* get bootstrapping scaling
+* get bootstrapping scaling with dask
 
 .. _pangeo.binder.io: http://binder.pangeo.io/
 
