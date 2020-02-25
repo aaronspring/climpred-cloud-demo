@@ -27,9 +27,11 @@ dependencies:
   # regridding
   - esmpy
   - xesmf
+  - cartopy # mapping
   - pip:
     - kubernetes
     - graphviz
     - git+https://github.com/bradyrx/climpred.git
-    - jupyter-server-proxy
-    - nb_black
+    - jupyter-server-proxy # dashboard communication
+    - nb_black # linting
+    - git+https://github.com/bradyrx/esmtools.git # for FDR
