@@ -2,36 +2,22 @@ name: pangeo-climpred
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - pangeo-notebook
   - xarray
-  - dask
-  - distributed
-  - dask-kubernetes
   - gcsfs
+  - intake
+  - intake-xarray
   - intake-esm
   - zarr
   - matplotlib
-  - numcodecs
-  - python-blosc
-  - lz4
-  - nomkl
-  - nbserverproxy
-  - jupyter
-  - jupyterlab=0.35
-  - jupyterlab_launcher
-  - jupyter_client
-  - ipywidgets
-  - graphviz
-  - nodejs
   - pip
+  - nb_black
   # regridding
-  - esmpy
+  - esmpy=7.1.0
   - xesmf
   - cartopy # mapping
   - pip:
-    - kubernetes
-    - graphviz
-    - git+https://github.com/bradyrx/climpred.git
-    - jupyter-server-proxy # dashboard communication
-    - nb_black # linting
-    - git+https://github.com/bradyrx/esmtools.git # for FDR
+    - git+https://github.com/bradyrx/climpred.git@refs/pull/355/head  # resample fast PR
+    - git+https://github.com/bradyrx/esmtools.git  # for FDR
+    - git+https://github.com/raybellwaves/xskillscore.git  # skill metrics
+    - git+https://github.com/luke-gregor/dataBrewery.git  # load datasets
