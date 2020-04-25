@@ -7,7 +7,7 @@ dependencies:
   - gcsfs
   - intake
   - intake-xarray
-  - intake-esm
+  # - intake-esm
   - zarr
   - matplotlib
   - pip
@@ -21,3 +21,4 @@ dependencies:
     - git+https://github.com/bradyrx/esmtools.git  # for FDR
     - git+https://github.com/raybellwaves/xskillscore.git  # skill metrics
     - git+https://github.com/luke-gregor/dataBrewery.git  # load datasets
+    - git+https://github.com/NCAR/intake-esm.git@refs/pull/194/head
