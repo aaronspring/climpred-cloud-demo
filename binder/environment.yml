@@ -17,7 +17,7 @@ dependencies:
   - xesmf
   - cartopy # mapping
   - pip:
-    - git+https://github.com/bradyrx/climpred.git
+    - git+https://github.com/bradyrx/climpred.git@AS_bootstrap_metric_refactor
     - git+https://github.com/bradyrx/esmtools.git  # for FDR
     - git+https://github.com/raybellwaves/xskillscore.git  # skill metrics
     - git+https://github.com/luke-gregor/dataBrewery.git  # load datasets
