@@ -19,6 +19,6 @@ dependencies:
   - pip:
     - git+https://github.com/bradyrx/climpred.git@refs/pull/355/head
     - git+https://github.com/bradyrx/esmtools.git  # for FDR
-    - git+https://github.com/raybellwaves/xskillscore.git  # skill metrics
+    - git+https://github.com/raybellwaves/xskillscore.git  # skill metrics 
     - git+https://github.com/luke-gregor/dataBrewery.git  # load datasets
     - git+https://github.com/NCAR/intake-esm.git
