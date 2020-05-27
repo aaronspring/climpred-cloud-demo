@@ -19,18 +19,18 @@ kubernetes:
       - args:
           - dask-worker
           - --nthreads
-          - '4'
+          - '2'
           - --no-bokeh
           - --memory-limit
-          - 32GB
+          - 8GB
           - --death-timeout
           - '60'
         image: ${JUPYTER_IMAGE_SPEC}
         name: dask-worker
         resources:
           limits:
-            cpu: 16
-            memory: 32G
+            cpu: 4
+            memory: 8G
           requests:
-            cpu: 8
-            memory: 16G
+            cpu: 2
+            memory: 8G
