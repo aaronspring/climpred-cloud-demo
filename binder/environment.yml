@@ -7,7 +7,6 @@ dependencies:
   - gcsfs
   - intake
   - intake-xarray
-  # - intake-esm
   - zarr
   - matplotlib
   - pip
