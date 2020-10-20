@@ -2,7 +2,7 @@ name: pangeo-climpred
 channels:
   - conda-forge
 dependencies:
-  - pangeo-notebook
+  - pangeo-notebook==2020.10.08
   - xarray
   - gcsfs
   - intake
